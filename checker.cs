@@ -69,7 +69,7 @@ public class Evaluate
         this.vitalDataCheck.invoke(vitalDataCheck);
     }
 }
-public class Checkers
+public class Program
 {
     static CheckBPM checkBPM= new CheckBPM();
     static CheckSPO2 checkspo2=new CheckSPO2();
