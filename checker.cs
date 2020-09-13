@@ -1,5 +1,10 @@
 using System;
 using System.Diagnostics;
+using System.collections.Generic;
+using System.linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Checkers
 {
 public class CheckBPM
