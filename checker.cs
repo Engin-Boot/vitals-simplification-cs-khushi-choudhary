@@ -81,13 +81,13 @@ public class Program
     static CheckResperate checkResperate =new CheckResperate();
     static int Main()
     {
-       Evaluate evalBPM=new Evaluate(new VitalDataCheck(CheckBPM.Check_BPM));
+       Evaluate evalBPM=new Evaluate(new VitalDataCheck(checkBPM.Check_BPM));
        evalBPM.eval(75);
 
-       Evaluate evalSPO2=new Evaluate(new VitalDataCheck(CheckSPO2.Check_SPO2));
+       Evaluate evalSPO2=new Evaluate(new VitalDataCheck(checkSPO2.Check_SPO2));
        evalSPO2.eval(75);
 
-       Evaluate evalResperate=new Evaluate(new VitalDataCheck(CheckResperate.Check_Resperate));
+       Evaluate evalResperate=new Evaluate(new VitalDataCheck(checkResperate.Check_Resperate));
        evalResperate.eval(75);
         
     }
