@@ -10,7 +10,7 @@ public class CheckBPM
         {
             Console.WriteLine("bpm is high");
         }
-        elseif(bpm>150)
+        else if(bpm>150)
         {
             Console.WriteLine("bpm is low");
         }
@@ -44,7 +44,7 @@ public class CheckResperate
         {
             Console.WriteLine("respiration rate is high");
         }
-        elseif(resperate<30)
+        else if(resperate<30)
         {
             Console.WriteLine("respiration rate is low");
         
